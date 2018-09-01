@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cc5d70b-02be-4b7f-98c7-b4d301731987" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/longestCommenSubsequence.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullBackpackProblem.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multiplePartsSummaryProblem.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multiplePartsSummary_improve.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backpackProblem.go" beforeDir="false" afterPath="$PROJECT_DIR$/backpackProblem.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,35 +54,42 @@
     <session id="-136224164">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.155" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.53" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="10" />
+          <entry key="go" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="10" />
+          <entry key="Go" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="4938" />
+          <entry key="go" value="6787" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="4938" />
+          <entry key="Go" value="6787" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -93,31 +103,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intervalProblem.go">
+        <entry file="file://$PROJECT_DIR$/fullBackpackProblem.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenceRepair.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backpackProblem.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="160">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding>
                 <element signature="e#14#39#0" expanded="true" />
               </folding>
@@ -126,13 +115,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/longestCommenSubsequence.go">
+        <entry file="file://$PROJECT_DIR$/multiplePartsSummary_improve.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multiplePartsSummaryProblem.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -160,8 +155,11 @@
         <option value="$PROJECT_DIR$/bestCowLine.go" />
         <option value="$PROJECT_DIR$/saruman'sArmy.go" />
         <option value="$PROJECT_DIR$/fenceRepair.go" />
-        <option value="$PROJECT_DIR$/backpackProblem.go" />
         <option value="$PROJECT_DIR$/longestCommenSubsequence.go" />
+        <option value="$PROJECT_DIR$/backpackProblem.go" />
+        <option value="$PROJECT_DIR$/fullBackpackProblem.go" />
+        <option value="$PROJECT_DIR$/multiplePartsSummaryProblem.go" />
+        <option value="$PROJECT_DIR$/multiplePartsSummary_improve.go" />
       </list>
     </option>
   </component>
@@ -171,9 +169,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="441" />
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="317" />
+    <option name="y" value="55" />
     <option name="width" value="1305" />
     <option name="height" value="940" />
   </component>
@@ -183,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,16 +193,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/学习视频/Go语言Gui游戏开发——黑白棋视频/Go语言Gui游戏开发——黑白棋资料/第10天(案例：黑白棋)/4-源代码" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build longestCommenSubsequence.go">
+  <component name="RunManager" selected="Go Build.go build multiplePartsSummary_improve.go">
     <configuration name="go build backpackProblem.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LakeCounting" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -227,21 +228,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build bestCowLine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build fullBackpackProblem.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LakeCounting" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/bestCowLine.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build fenceRepair.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LakeCounting" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/fenceRepair.go" />
+      <filePath value="$PROJECT_DIR$/fullBackpackProblem.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -254,42 +246,50 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build saruman'sArmy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build multiplePartsSummaryProblem.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LakeCounting" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/saruman'sArmy.go" />
+      <filePath value="$PROJECT_DIR$/multiplePartsSummaryProblem.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build multiplePartsSummary_improve.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LakeCounting" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/multiplePartsSummary_improve.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build bestCowLine.go" />
-      <item itemvalue="Go Build.go build saruman'sArmy.go" />
-      <item itemvalue="Go Build.go build fenceRepair.go" />
       <item itemvalue="Go Build.go build backpackProblem.go" />
       <item itemvalue="Go Build.go build longestCommenSubsequence.go" />
+      <item itemvalue="Go Build.go build fullBackpackProblem.go" />
+      <item itemvalue="Go Build.go build multiplePartsSummaryProblem.go" />
+      <item itemvalue="Go Build.go build multiplePartsSummary_improve.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build longestCommenSubsequence.go" />
+        <item itemvalue="Go Build.go build multiplePartsSummary_improve.go" />
+        <item itemvalue="Go Build.go build multiplePartsSummaryProblem.go" />
+        <item itemvalue="Go Build.go build fullBackpackProblem.go" />
         <item itemvalue="Go Build.go build backpackProblem.go" />
-        <item itemvalue="Go Build.go build fenceRepair.go" />
-        <item itemvalue="Go Build.go build saruman'sArmy.go" />
-        <item itemvalue="Go Build.go build bestCowLine.go" />
+        <item itemvalue="Go Build.go build longestCommenSubsequence.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="353" y="18" width="1044" height="752" extended-state="0" />
-    <editor active="true" />
+    <frame x="254" y="44" width="1044" height="752" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19574037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22819473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24394184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29402262" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33117932" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,9 +363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -376,23 +373,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/longestCommenSubsequence.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backpackProblem.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="380">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fullBackpackProblem.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
             <element signature="e#14#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/longestCommenSubsequence.go">
+    <entry file="file://$PROJECT_DIR$/multiplePartsSummaryProblem.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiplePartsSummary_improve.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>

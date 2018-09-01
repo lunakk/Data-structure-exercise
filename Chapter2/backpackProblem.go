@@ -7,7 +7,7 @@ import (
 
 const max_n3 int = 100
 
-func rec(i int, j int, w []int, v []int, n int, dp *[max_n3][max_n3]int) (int) {
+func rec(i int, j int, w []int, v []int, n int, dp *[max_n3+1][max_n3+1]int) (int) {
 	if dp[i][j] >= 0 {
 		return dp[i][j]
 	}
